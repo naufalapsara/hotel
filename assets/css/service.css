@@ -1,0 +1,84 @@
+.serviceContent {
+	width: 500px;
+	height: 700px;
+	padding: 25px;
+	border: 2px solid rgb(163, 130, 130);
+}
+
+.serviceContent img {
+	width: 450px;
+	height: 600px;
+}
+
+.serviceContent img:hover {
+	opacity: 0.8;
+}
+
+.serviceContent .textboard {
+	background: rgba(67, 54, 71, 0.96);
+	color: whitesmoke;
+	font-size: 18px;
+	width: 50%;
+	padding: 10px 30px;
+	margin-left: 2rem;
+}
+
+.serviceContent .textExplore {
+	background: #47313F;
+	color: whitesmoke;
+	font-size: 14px;
+	width: 35%;
+	padding: 10px 30px;
+	text-align: center;
+}
+
+.serviceContent span {
+	position: relative;
+	width: 300px;
+	background: #47313F;
+	color: whitesmoke;
+	padding: 10px;
+	text-align: center;
+	border-radius: 8px;
+	display: block;
+	margin-left: 10.6rem;
+	opacity: 0;
+	font-size: 13px;
+	transition: 1s opacity;
+}
+
+.serviceContent span::before {
+	content: '';
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: -5px;
+	background: #47313F;
+	z-index: 8;
+	left: 55%;
+	transform: translateX(-45%) rotate(45deg);
+}
+
+.serviceContent:hover>span {
+	opacity: 1;
+}
+
+.bordereds {
+	border: 4px solid rgba(67, 54, 71, 0.96);
+	width: 18rem;
+}
+
+.headBox {
+	width: 250px;
+	height: 30px;
+}
+
+.tableDataService tr {
+	width: 100%;
+}
+
+
+.tableDataService tr:nth-child(odd) {
+	background: rgba(67, 54, 71, 0.96);
+	color: white
+}

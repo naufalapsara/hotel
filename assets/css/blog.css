@@ -1,0 +1,23 @@
+.blogC {
+	width: 65%;
+}
+
+.iblog img {
+	width: 350px;
+	height: 270px;
+	margin-right: 2rem;
+	border-radius: 2px;
+	box-shadow: 2px 3px 10px 8px #ccc;
+}
+
+.btn .btn-info {
+	border-radius: 50%;
+}
+
+.textBoard{
+    width: inherit;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

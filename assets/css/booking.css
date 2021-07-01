@@ -1,0 +1,123 @@
+.formContent {
+	width: 1366px;
+	height: auto;
+	margin-left: -5rem;
+	margin-top: 9rem;
+}
+
+.boxDecor {
+	left: 0;
+	width: 500px;
+	height: 130px;
+	background-color: #563B4C;
+}
+
+.formBox {
+	width: 750px;
+	height: 620px;
+	background: white;
+	box-shadow: 0px 10px 56px -20px rgba(0, 0, 0, 0.1);
+	z-index: 7;
+	padding: 30px
+}
+
+.decoration {
+	width: 600;
+	margin-left: -10rem;
+	margin-top: -6rem;
+	padding: 20px;
+	border: 2px solid rgb(163, 69, 129);
+}
+
+.decoration img {
+	width: 750px;
+	height: 555px;
+}
+
+.boxFormData {
+	width: inherit;
+	height: 380px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.boxFormData input[type=text],
+.boxFormData input[type=date] {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	font-size: 17px;
+	color: rgb(163, 69, 129);
+	font-weight: 800;
+}
+
+.boxFormData input[type=text]::placeholder,
+.boxFormData input[type=date]::placeholder {
+	color: rgb(163, 69, 129);
+	font-weight: 800;
+}
+
+
+.boxFormData select {
+	border: none;
+	outline: none;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	font-size: 17px;
+	background: white;
+	font-weight: 800;
+	color: rgb(163, 69, 129);
+}
+
+.boxFormData select option {
+	background: white;
+	color: #000;
+	border-radius: 3px;
+	padding: 5px;
+}
+
+.btn-submit {
+	padding: 13px;
+	border: none;
+	border-radius: 3px;
+	width: 50%;
+	font-size: 20px;
+	margin-left: 6rem;
+	background: #f18c8e;
+}
+
+
+.iRoom img {
+	width: 380px;
+	height: 330px;
+	margin-right: 2rem;
+	border-radius: 2px;
+	box-shadow: 0px 10px 30px -20px rgb(0, 0, 0);
+}
+
+.boxFormData input[type=date] {
+    position: relative;
+	width: inherit; 
+	height: 30px;
+	color: rgb(163, 69, 129);
+}
+
+.boxFormData input[type=date]:before {
+    position: absolute;
+	left: 3px;
+    content: attr(data-date);
+    display: inline-block;
+    color: rgb(163, 69, 129);
+}
+
+.boxFormData input[type=date]::-webkit-datetime-edit, .boxFormData input[type=date]::-webkit-inner-spin-button, .boxFormData input[type=date]::-webkit-clear-button {
+    display: none;
+}
+
+.boxFormData input[type=date]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 3px;
+    right: 0;
+    color: rgb(163, 69, 129);
+    opacity: 1;
+}

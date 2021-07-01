@@ -1,0 +1,45 @@
+
+
+Sun Oct 13 10:18:09 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.15.0-65-generic (#74-Ubuntu SMP Tue Sep 17 17:06:04 UTC 2019) x86_64
+Compiler: GCC 7.2
+ext2fs lib: 1.44.1, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.0
+/dev/sda: LBA, HPA, LBA48, DCO support
+/dev/sda: size       250069680 sectors
+/dev/sda: user_max   250069680 sectors
+/dev/sda: native_max 250069680 sectors
+/dev/sda: dco        250069680 sectors
+/dev/sdb: LBA, HPA, LBA48, DCO support
+/dev/sdb: size       1953525168 sectors
+/dev/sdb: user_max   1953525168 sectors
+/dev/sdb: native_max 1953525168 sectors
+/dev/sdb: dco        1953525168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 128 GB / 119 GiB - CHS 15566 255 63, sector size=512 - Colorful SL300 128GB, S/N:769924122334, FW:SBFQ61B3
+Disk /dev/sdb - 1000 GB / 931 GiB - CHS 121601 255 63, sector size=512 - WDC WD10EZEX-22MFCA0, S/N:WD-WCC6Y3TZPDDZ, FW:01.01A01
+
+Partition table type (auto): EFI GPT
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 128 GB / 119 GiB - Colorful SL300 128GB
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=250069679 (expected 250069679)
+hdr_lba_start=34
+hdr_lba_end=250069646
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+ 1 P EFI System                    40     409639     409600 [EFI System Partition]
+ 2 P Unknown                   411648   61030399   60618752
+ 3 P Linux Swap              61030400   68843519    7813120
+ 4 P Unknown                 68843520  250068991  181225472
+SIGHUP detected! TestDisk has been killed.
